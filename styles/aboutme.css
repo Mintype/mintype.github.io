@@ -1,0 +1,8 @@
+body {
+    background-image: url('..\\images\\indexbackground.jpg');
+    background-color: #010A0F;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:top center;
+    min-height: 500vh;
+  }
