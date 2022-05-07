@@ -6,3 +6,12 @@ body {
   background-position:top center;
   min-height: 500vh;
 }
+
+#WelcomeText {
+  color: white;
+  font-size: 50px;
+  font-family: sans-serif;
+  padding-top: 100px;
+  padding-left: 80px;
+  text-shadow: 3px 3px #00378a;
+}
