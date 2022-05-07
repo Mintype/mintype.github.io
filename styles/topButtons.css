@@ -1,3 +1,10 @@
+body {
+  background-image: url('..\\images\\indexbackground.jpg');
+  background-color: #010A0F;
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:top center;
+}
 .button {
     border: none;
     color: rgb(255, 255, 255);
@@ -20,4 +27,8 @@
   .button:hover {
     background-color: rgba(1, 33, 51, 0.478);
     color: rgb(255, 255, 255);
+  }
+  .ScrollBackgroundChange {
+    filter: blur(8px);
+    -webkit-filter: blur(4px);
   }

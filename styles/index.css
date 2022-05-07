@@ -1,9 +1,4 @@
 body {
-  background-image: url('..\\images\\indexbackground.jpg');
-  background-color: #010A0F;
-  background-size:contain;
-  background-repeat:no-repeat;
-  background-position:top center;
   min-height: 500vh;
 }
 
@@ -13,5 +8,5 @@ body {
   font-family: sans-serif;
   padding-top: 100px;
   padding-left: 80px;
-  text-shadow: 3px 3px #00378a;
+  text-shadow: 3px 3px #00425e;
 }
