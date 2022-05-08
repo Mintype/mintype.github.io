@@ -10,3 +10,14 @@ body {
   padding-left: 80px;
   text-shadow: 3px 3px #00425e;
 }
+
+#mid {
+  color: white;
+  background-image: url('..\\images\\test.jpg');
+  background-size:contain;
+  background-repeat:no-repeat;
+  padding-top: 450px;
+  padding-left: 250px;
+  margin-top:1000px;
+  margin-left:10px;
+}

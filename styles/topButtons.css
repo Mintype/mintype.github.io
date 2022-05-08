@@ -29,6 +29,6 @@ body {
     color: rgb(255, 255, 255);
   }
   .ScrollBackgroundChange {
-    filter: blur(8px);
-    -webkit-filter: blur(4px);
+    backdrop-filter: blur(2px);
   }
+  
