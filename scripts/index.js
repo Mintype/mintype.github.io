@@ -1,13 +1,18 @@
+
 console.log("Hello World");
 
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {
+  scrollBlur()
+};
 
-function myFunction() {
-  if (document.documentElement.scrollTop > 50) {
-    document.getElementById("top").className = "ScrollBackgroundChange";
+var topText = document.getElementById("WelcomeText");
+
+function scrollBlur() {
+  if (document.documentElement.scrollTop > 1) {
+    document.getElementById("background").className = "blur";
     console.log("1");
   } else {
-    document.getElementById("top").className = "";
+    document.getElementById("background").className = "";
     console.log("0");
   }
 }
