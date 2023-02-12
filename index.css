@@ -1,0 +1,49 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+.top {
+    background-image: url("indexbackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center top;
+    min-height: 900px;
+    position: relative;
+    z-index: -1;
+}
+.mid {
+    background-color: #020b10;
+    min-height: 1000px;
+}
+.title {
+    margin: 0;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    padding-left: 42%;
+    font-size: 60px;
+    font-family: Calibri, serif;
+    position: absolute;
+
+    animation-name: intro;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes intro {
+    from {padding-top: 500px;}
+    to {padding-top: 50px;}
+}
+
+.layer {
+    background-image: url("indexbackgroundtop.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center top;
+    min-height: 900px;
+    position: relative;
+    z-index: 2;
+}
