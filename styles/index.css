@@ -54,3 +54,17 @@ body {
 
     width: 675px;
 }
+
+.github-profile {
+    position: absolute;
+    top: 15%;
+    right: 0;
+    height: 75%;
+    width: 20%;
+    transform: translateX(10%);
+    overflow: hidden;
+    z-index: -5;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: 0%;
+}
