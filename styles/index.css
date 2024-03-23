@@ -50,6 +50,7 @@ body {
     color: rgba(225, 233, 244, 0.649);
     font-family: "Inter", sans-serif;
     font-weight: 300;
-
     font-size: medium;
+
+    width: 675px;
 }
