@@ -1,0 +1,60 @@
+.main {
+    padding: 100px;
+    padding-top: 60px;
+    padding-left: 200px;
+    margin: 0;
+
+    height: calc(100vh - 230px);
+}
+
+.text-above-title {
+    margin: 0;
+    color: rgb(35, 155, 155);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    font-size: 18px;
+}
+
+.title-name {
+    margin: 0;
+    color: rgb(211, 223, 239);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+
+    font-size: 90px;
+}
+
+.text-under-title-name {
+    margin: 0;
+    color: rgba(225, 233, 244, 0.75);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+
+    font-size: x-large;
+}
+
+.description {
+    margin-top: 22px;
+    color: rgba(225, 233, 244, 0.649);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: medium;
+
+    width: 675px;
+}
+
+.github-profile {
+    position: absolute;
+    top: 15%;
+    right: 0;
+    height: 75%;
+    width: 20%;
+    transform: translateX(10%);
+    overflow: hidden;
+    z-index: -5;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: 0%;
+}
