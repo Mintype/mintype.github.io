@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(10, 25, 47);
+}
+
+.main {
+    padding: 100px;
+    padding-top: 60px;
+    padding-left: 200px;
+    margin: 0;
+}
+
+.text-above-title {
+    margin: 0;
+    color: rgb(35, 155, 155);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    font-size: 18px;
+}
+
+.title-name {
+    margin: 0;
+    color: rgb(211, 223, 239);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+
+    font-size: 90px;
+}
+
+.text-under-title-name {
+    margin: 0;
+    color: rgba(225, 233, 244, 0.75);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+
+    font-size: x-large;
+}
+
+.description {
+    margin-top: 22px;
+    color: rgba(225, 233, 244, 0.649);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+
+    font-size: medium;
+}
