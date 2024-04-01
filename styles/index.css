@@ -17,3 +17,9 @@ body {
 body::-webkit-scrollbar {
     display: none; /* For Chrome, Safari, and Opera */
 }
+
+.title {
+    color: rgb(211, 223, 239);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
