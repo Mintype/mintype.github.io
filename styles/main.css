@@ -1,9 +1,8 @@
 .main {
-    padding: 100px;
+    /* padding: 100px; */
     padding-top: 60px;
     padding-left: 200px;
     margin: 0;
-
     height: calc(100vh - 230px);
 }
 
@@ -57,4 +56,16 @@
     border-radius: 15px;
     object-fit: cover;
     object-position: 0%;
+}
+
+/* 3d stuff */
+#container {
+    height: 100vh; 
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -5;
 }
