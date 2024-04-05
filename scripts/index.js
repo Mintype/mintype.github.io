@@ -1,3 +1,5 @@
+// Set scroll position to top when the page loads
+
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
@@ -28,6 +30,34 @@ cube.rotation.x += 45;
 outlineCube.rotation.x += 45;
 
 camera.position.z = 5;
+
+// Track the previous scroll position
+let prevScrollPos = window.scrollY;
+
+// Listen for scroll event
+window.addEventListener('scroll', () => {
+    // Get the current scroll position
+    const currentScrollPos = window.scrollY;
+
+    // Calculate the difference in scroll position
+    const scrollDiff = currentScrollPos - prevScrollPos;
+
+    // Adjust cube scale based on scroll position
+    cube.scale.y += scrollDiff * 0.0001;
+    cube.scale.x += scrollDiff * 0.0001;
+    cube.scale.z += scrollDiff * 0.0001;
+
+	outlineCube.scale.y -= scrollDiff * 0.0001;
+    outlineCube.scale.x -= scrollDiff * 0.0001;
+    outlineCube.scale.z -= scrollDiff * 0.0001;
+
+    // Update the previous scroll position
+    prevScrollPos = currentScrollPos;
+
+    // Render the scene with the camera
+    renderer.render(scene, camera);
+});
+
 
 function animate() {
 	requestAnimationFrame( animate );
