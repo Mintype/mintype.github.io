@@ -29,13 +29,12 @@
     color: rgba(225, 233, 244, 0.75);
     font-family: "Inter", sans-serif;
     font-weight: 300;
-    font-style: italic;
-
-    font-size: x-large;
+    font-size: 40px;
+    /* font-style: italic; */
 }
 
 .description {
-    margin-top: 22px;
+    margin-top: 30px;
     color: rgba(225, 233, 244, 0.649);
     font-family: "Inter", sans-serif;
     font-weight: 300;
