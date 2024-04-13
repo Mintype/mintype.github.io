@@ -25,6 +25,8 @@
 
     margin: 50px;
     z-index: 1;
+
+    line-height: 1.3;
 }
 
 .leftcontainer {
