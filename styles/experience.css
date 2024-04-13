@@ -1,4 +1,23 @@
 #experience {
     height: 100vh;
-    /* background-color: rgb(33, 81, 129); */
+    background-color: rgb(17, 58, 99);
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-title {
+    color: rgb(211, 223, 239);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+
+    font-size: 50px;
+    margin-top: 50px;
+    z-index: 1;
 }
