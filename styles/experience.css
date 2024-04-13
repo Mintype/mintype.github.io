@@ -11,7 +11,26 @@
     align-items: center;
 }
 
-.experience-title {
+.experiences {
+    border-style: solid;
+    padding: 8px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.experience {
+    margin: 8px;
+    border-style: solid;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+.experiences-title {
     color: rgb(211, 223, 239);
     font-family: "Inter", sans-serif;
     font-weight: 400;
