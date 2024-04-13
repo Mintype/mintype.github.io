@@ -24,3 +24,15 @@ body::-webkit-scrollbar {
     font-family: "Inter", sans-serif;
     font-weight: bold;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: rgba(225, 233, 244, 0.75);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
