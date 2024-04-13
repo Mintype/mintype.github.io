@@ -36,3 +36,13 @@ footer {
     font-family: "Inter", sans-serif;
     font-weight: 500;
 }
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    /* background-color: rgba(10, 25, 47, 0.042); */
+    /* backdrop-filter: blur(10px); Add a blur effect */
+}
