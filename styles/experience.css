@@ -1,6 +1,7 @@
 #experience {
     height: 100vh;
-    background-color: rgb(17, 58, 99);
+    /* background-color: rgb(17, 58, 99); */
+    background-color: rgb(15, 36, 67);
     padding: 0;
     margin: 0;
     position: relative;
@@ -16,6 +17,10 @@
     padding: 8px;
     border-radius: 15px;
     display: flex;
+    flex-wrap: wrap;
+
+    height: max-content;
+    width: 684px;
 }
 
 .experience {
