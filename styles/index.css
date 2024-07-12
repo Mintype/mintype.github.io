@@ -46,3 +46,29 @@ nav {
     /* background: linear-gradient(to bottom, rgba(10, 25, 47, 0.4), rgba(10, 25, 47, 0.1)); */
     /* backdrop-filter: blur(10px); */
 }
+
+.fadeIn {
+    opacity: 0;
+    animation: fadeInAnimation 650ms ease-in forwards;
+}
+
+.fadeIn1 {
+    opacity: 0;
+    animation: fadeInAnimation 650ms ease-in forwards;
+    animation-delay: 650ms;
+}
+
+.fadeIn2 {
+    opacity: 0;
+    animation: fadeInAnimation 650ms ease-in forwards;
+    animation-delay: 1300ms;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
