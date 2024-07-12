@@ -1,4 +1,45 @@
 #contact {
-    height: 100vh;
-    /* background-color: rgb(89, 135, 181); */
+    height: 92vh;
+    /* background-color: rgb(17, 58, 99); */
+    /* background-color: rgb(22, 22, 22); */
+    background-color: rgb(10, 25, 47);
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-title {
+    color: rgb(211, 223, 239);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    text-shadow: 2px 2px 1px black;
+
+    font-size: 50px;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.8;
+}
+
+.contacts-list {
+    /* position: absolute;
+    top: 30%;
+    left: 10%; */
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
