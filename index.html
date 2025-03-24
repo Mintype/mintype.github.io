@@ -14,8 +14,18 @@
   <link rel="icon" type="image/x-icon" href="/images/logo.ico">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+    .typewriter {
+      font-size: 2rem;
+      color: #4CAF50;
+      font-weight: bold;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #4CAF50;
+    }
   </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
@@ -32,9 +42,10 @@
   </nav>
   <div id="container">
     <div class="main" id="main">
-      <p class="text-above-title fadeIn">Hey there, I am</p>
+      <p class="text-above-title fadeIn">Hey there, I'm</p>
       <h1 class="title-name fadeIn1">Mintype.</h1>
-      <h2 class="text-under-title-name fadeIn2">I code fullstack WebApps</h2>
+      <!-- <h2 class="text-under-title-name fadeIn2">I code fullstack WebApps</h2> -->
+    <div class="text-under-title-name fadeIn2" id="typewriter"></div>
       <p class="description"></p>
       <!--<img class="github-profile" src="images/GitHub-Profile.png" alt="Screenshot of my GitHub Profile">-->
     </div>
