@@ -30,5 +30,5 @@ window.addEventListener('load', () => {
         .typeString('I turn ideas into reality.')
         .pauseFor(1500)
         .start();
-    }, 300); // 300 ms delay after page load
+    }, 750); // 750 ms delay after page load
   });
