@@ -75,11 +75,11 @@
 
 #container {
     height: 100vh; 
-    background-color: rgb(10, 25, 47);
+    /* background-color: rgb(10, 25, 47); */
 }
 
 canvas {
-    background-color: rgb(10, 25, 47);
+    /* background-color: rgb(10, 25, 47); */
     position: fixed;
     top: 0;
     left: 0;

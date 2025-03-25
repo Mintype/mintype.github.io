@@ -32,3 +32,5 @@ window.addEventListener('load', () => {
         .start();
     }, 750); // 750 ms delay after page load
   });
+
+  
