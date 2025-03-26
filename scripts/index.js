@@ -110,3 +110,15 @@ function updateCursor2() {
 // Start both cursor animation loops
 updateCursor();
 updateCursor2();
+
+const aTags = document.querySelectorAll('a');
+
+aTags.forEach(aTag => {
+  aTag.addEventListener('mouseover', () => {
+    cursor2.classList.add('hover-tag');
+  });
+
+  aTag.addEventListener('mouseout', () => {
+    cursor2.classList.remove('hover-tag');
+  });
+});

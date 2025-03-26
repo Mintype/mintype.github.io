@@ -47,6 +47,6 @@
 
 nav, #container, #contact, footer {
     position: relative;
-    background: rgba(10, 25, 47, 0.55);
-    backdrop-filter: blur(10px);
+    /* background: rgba(10, 25, 47, 0.55);
+    backdrop-filter: blur(10px); */
 }

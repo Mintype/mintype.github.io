@@ -1,3 +1,7 @@
+* {
+    cursor: none;
+}
+
 html {
     scroll-behavior: smooth;
     -webkit-user-select: none;
@@ -11,8 +15,6 @@ body {
     padding: 0;
 
     background-color: rgb(10, 25, 47);
-
-    cursor: none;
 }
 
 body::-webkit-scrollbar {
@@ -133,11 +135,12 @@ nav {
     position: absolute;
     width: 40px;
     height: 40px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.25); /* Includes style, width, and color */
     pointer-events: none;
     transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25), 0 1px 4px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25), 0 1px 4px rgba(0, 0, 0, 0.15); */
     transition: transform 0.1s ease-out;
 }
 
@@ -145,10 +148,16 @@ nav {
     position: absolute;
     width: 10px; 
     height: 10px; 
-    background: rgba(3, 11, 34, 0.6); 
+    background: rgba(3, 11, 34, 0.6);
     border-radius: 50%;
     pointer-events: none;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
     z-index: 99;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.cursor-two.hover-tag {
+    transform: scale(2);
+    background: rgba(3, 11, 34, 0.5);
 }
