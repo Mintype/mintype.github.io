@@ -20,6 +20,10 @@
     display: flex;
     align-items: center;
     gap: 15px;
+    text-shadow: 
+        0 0 5px rgba(211, 223, 239, 0.25),
+        0 0 10px rgba(211, 223, 239, 0.15),
+        0 0 15px rgba(211, 223, 239, 0.08);
 }
 
 .section-title::before {
