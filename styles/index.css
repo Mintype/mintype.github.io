@@ -37,6 +37,7 @@ footer {
     color: rgba(225, 233, 244, 0.75);
     font-family: "Inter", sans-serif;
     font-weight: 500;
+    text-align: center;
 }
 
 nav {
@@ -93,9 +94,25 @@ nav {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .text-under-title-name {
         text-align: center;
+    }
+
+    .title-name {
+        font-size: 80px !important;
+    }
+
+    .text-above-title {
+        font-size: 14px !important;
+    }
+
+    .text-under-title-name {
+        font-size: 24px !important;
+    }
+    body {
+        padding: 2.5em;
     }
 }
 
