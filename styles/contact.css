@@ -1,0 +1,105 @@
+/* Contact Section */
+.contact-container {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    max-width: 600px;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.contact-label {
+    color: rgb(35, 155, 155);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.contact h2 {
+    color: rgb(211, 223, 239);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0 0 20px 0;
+}
+
+.contact p {
+    color: rgba(225, 233, 244, 0.7);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 18px 50px;
+    border: 2px solid rgb(35, 155, 155);
+    border-radius: 5px;
+    color: rgb(35, 155, 155);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+.contact-btn:hover {
+    background: rgba(35, 155, 155, 0.1);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(35, 155, 155, 0.2);
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.social-links a {
+    color: rgba(225, 233, 244, 0.6);
+    font-size: 24px;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    color: rgb(35, 155, 155);
+    transform: translateY(-3px);
+}
+
+/* Scroll Down Arrow */
+/* .scroll-down-container {
+    margin-top: 60px;
+} */
+
+.scroll-down-arrow {
+    display: inline-block;
+    color: rgb(35, 155, 155);
+    font-size: 24px;
+    animation: bounce 2s infinite;
+    text-decoration: none;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-8px);
+    }
+}
+
+.fadeIn3 {
+    opacity: 0;
+    animation: fadeInAnimation 650ms ease-in forwards;
+    animation-delay: 1950ms;
+}
