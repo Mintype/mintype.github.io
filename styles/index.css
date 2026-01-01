@@ -114,6 +114,11 @@ nav {
     body {
         padding: 2.5em;
     }
+
+    .cursor,
+    .cursor-two {
+        display: none;
+    }
 }
 
 /* Glow Effects*/
