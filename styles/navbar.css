@@ -33,11 +33,19 @@ nav {
     font-weight: bold;
     font-size: 18px;
 
+    text-shadow: 
+        0 0 3px rgba(255, 255, 255, 0.2),
+        0 0 6px rgba(255, 255, 255, 0.1);
+
     /* cursor: none; */
 }
 
 .navNumbers {
     color: rgb(35, 155, 155);
+
+    text-shadow: 
+        0 0 2px rgba(35, 155, 155, 0.2),
+        0 0 4px rgba(35, 155, 155, 0.1);
 }
 
 .logo {
